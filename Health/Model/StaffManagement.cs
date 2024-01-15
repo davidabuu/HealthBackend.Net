@@ -12,7 +12,7 @@ namespace Health.Model
         Receptionist,
         // Add more roles as needed
     }
-    public class StaffManagment
+    public class StaffManagement
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

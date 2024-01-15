@@ -12,8 +12,8 @@ namespace Health.Model
         public int OrderId { get; set; }
         public PatientRegistration? Patient { get; set; }
         public DoctorRegistration? OrderingDoctor { get; set; }
-        public DateTime OrderDate { get; set; }
+        public DateTime? OrderDate { get; set; }
         public List<LabTest>? OrderedTests { get; set; }
-        public bool IsCompleted { get; set; }
+        public bool? IsCompleted { get; set; }
     }
 }

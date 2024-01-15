@@ -9,6 +9,6 @@
 
         public int? PatientId { get; set; }// Here the patient will add  his id to know who wants the appointment
 
-        public bool Approved { get; set; }// docotr will now have to approve it 
+        public bool? Approved { get; set; }// docotr will now have to approve it 
     }
 }

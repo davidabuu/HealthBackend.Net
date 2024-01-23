@@ -1,6 +1,9 @@
-﻿namespace Health.Model
+﻿
+using Microsoft.AspNetCore.Identity;
+
+namespace Health.Model
 {
-    public class AdminRegistration
+    public class AdminRegistration : IdentityUser
     {
         public string? FirstName { get; set; }
 
